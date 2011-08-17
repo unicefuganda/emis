@@ -1,0 +1,45 @@
+[submodule "emis_project/rapidsms"]
+	path = emis_project/rapidsms
+	url = git://github.com/unicefuganda/rapidsms.git
+[submodule "emis_project/rapidsms_healthmodels"]
+	path = emis_project/rapidsms_healthmodels
+	url = git://github.com/unicefuganda/healthmodels.git
+[submodule "emis_project/uganda_common"]
+	path = emis_project/uganda_common
+	url = git://github.com/unicefuganda/rapidsms-uganda-common
+[submodule "emis_project/django_eav"]
+	path = emis_project/django_eav
+	url = git://github.com/unicefuganda/django-eav.git
+[submodule "emis_project/rapidsms_auth"]
+	path = emis_project/rapidsms_auth
+	url = git://github.com/unicefuganda/rapidsms-auth.git
+[submodule "emis_project/rapidsms_contact"]
+	path = emis_project/rapidsms_contact
+	url = git://github.com/unicefuganda/rapidsms-contact.git
+[submodule "emis_project/rapidsms_cvs"]
+	path = emis_project/rapidsms_cvs
+	url = git://github.com/unicefuganda/rapidsms-cvs.git
+[submodule "emis_project/rapidsms_generic"]
+	path = emis_project/rapidsms_generic
+	url = git://github.com/unicefuganda/rapidsms-generic.git
+[submodule "emis_project/rapidsms_httprouter_src"]
+	path = emis_project/rapidsms_httprouter_src
+	url = git://github.com/unicefuganda/rapidsms-httprouter.git
+[submodule "emis_project/rapidsms_emis"]
+	path = emis_project/rapidsms_emis
+	url = git://github.com/unicefuganda/rapidsms-emis.git
+[submodule "emis_project/rapidsms_polls"]
+	path = emis_project/rapidsms_polls
+	url = git://github.com/unicefuganda/rapidsms-polls.git
+[submodule "emis_project/rapidsms_script"]
+	path = emis_project/rapidsms_script
+	url = git://github.com/unicefuganda/rapidsms-script.git
+[submodule "emis_project/rapidsms_unregister"]
+	path = emis_project/rapidsms_unregister
+	url = git://github.com/unicefuganda/rapidsms-unregister
+[submodule "emis_project/rapidsms_ureport"]
+	path = emis_project/rapidsms_ureport
+	url = git://github.com/unicefuganda/rapidsms-ureport
+[submodule "emis_project/rapidsms_xforms_src"]
+	path = emis_project/rapidsms_xforms_src
+	url = git://github.com/unicefuganda/rapidsms-xforms.git
