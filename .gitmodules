@@ -1,9 +1,6 @@
 [submodule "emis_project/rapidsms"]
 	path = emis_project/rapidsms
 	url = git://github.com/unicefuganda/rapidsms.git
-[submodule "emis_project/rapidsms_healthmodels"]
-	path = emis_project/rapidsms_healthmodels
-	url = git://github.com/unicefuganda/healthmodels.git
 [submodule "emis_project/uganda_common"]
 	path = emis_project/uganda_common
 	url = git://github.com/unicefuganda/rapidsms-uganda-common
