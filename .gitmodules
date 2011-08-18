@@ -13,9 +13,6 @@
 [submodule "emis_project/rapidsms_contact"]
 	path = emis_project/rapidsms_contact
 	url = git://github.com/unicefuganda/rapidsms-contact.git
-[submodule "emis_project/rapidsms_cvs"]
-	path = emis_project/rapidsms_cvs
-	url = git://github.com/unicefuganda/rapidsms-cvs.git
 [submodule "emis_project/rapidsms_generic"]
 	path = emis_project/rapidsms_generic
 	url = git://github.com/unicefuganda/rapidsms-generic.git
