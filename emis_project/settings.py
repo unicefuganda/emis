@@ -104,6 +104,7 @@ INSTALLED_APPS = [
     "generic",
     "contact",
     "unregister",
+    "education",
 ]
 
 SMS_APPS = [
