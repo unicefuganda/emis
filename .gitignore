@@ -3,3 +3,4 @@
 .settings
 *.pyc
 *~
+localsettings.py
