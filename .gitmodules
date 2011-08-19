@@ -1,9 +1,6 @@
 [submodule "emis_project/rapidsms"]
 	path = emis_project/rapidsms
 	url = git://github.com/unicefuganda/rapidsms.git
-[submodule "emis_project/uganda_common"]
-	path = emis_project/uganda_common
-	url = git://github.com/unicefuganda/rapidsms-uganda-common
 [submodule "emis_project/django_eav"]
 	path = emis_project/django_eav
 	url = git://github.com/unicefuganda/django-eav.git
@@ -40,3 +37,6 @@
 [submodule "emis_project/rapidsms_authsites"]
 	path = emis_project/rapidsms_authsites
 	url = git://github.com/unicefuganda/rapidsms-authsites
+[submodule "emis_project/rapidsms_uganda_common"]
+	path = emis_project/rapidsms_uganda_common
+	url = git://github.com/unicefuganda/rapidsms-uganda-common
