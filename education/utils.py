@@ -1,10 +1,6 @@
-from django.contrib.auth.models import User, Group
 from rapidsms_xforms.models import XForm, XFormField, XFormFieldConstraint
-from django.conf import settings
-from django.contrib.sites.models import Site
 from poll.models import Poll
 from script.models import Script, ScriptStep
-import traceback
 from rapidsms_xforms.models import XFormSubmission, XFormSubmissionValue
 from django.db.models import Count, Sum
 
