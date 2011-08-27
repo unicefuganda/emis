@@ -6,6 +6,11 @@ The Education monitoring application is closely linked and some of its data is d
 
 Technically speaking, RapidSMS-EMIS leverages the work of rapidsms-script (github.com/daveycrockett/rapidsms-script/) to provide an easy system for automated conversation-like communication between the rapidsms-emis application, teachers and other education specialists and administrators.
 
+Reports that are gathered include:
+ - Teacher and student attendance
+ - Classroom and latrine use
+ - Cases of abuse
+
 Requirements
 ============
  - Python 2.6 (www.python.org/download/) : On linux machines, you can usually use your system's package manager to perform the installation
