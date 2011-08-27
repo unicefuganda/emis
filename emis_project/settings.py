@@ -46,7 +46,6 @@ CATEGORY_COLORS = ['#AA4643', '#4572A7', '#89A54E', '#80699B', '#3D96AE', '#DB84
 DATABASES = {
     'default': {
         'ENGINE' : 'django.db.backends.postgresql_psycopg2',
-        #'ENGINE' : 'django.db.backends.sqlite3',
 	'NAME': 'emis',
         'USER': 'www-data',
     }
@@ -114,7 +113,6 @@ SMS_APPS = [
 # tabbed navigation. when adding an app to INSTALLED_APPS, you may wish
 # to add it here, also, to expose it in the rapidsms ui.
 RAPIDSMS_TABS = [
-#   ("registration", "Registration"),
    ('stats', 'Stats'),
    ('emis-messagelog', 'Messages'),
    ('emis-contact', 'Reporters'),
