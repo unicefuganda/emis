@@ -2,7 +2,7 @@ from django.conf.urls.defaults import *
 from django.conf import settings
 from django.contrib import admin
 from rapidsms_httprouter.urls import urlpatterns as router_urls
-from ureport.urls import urlpatterns as ureport_urls
+#from ureport.urls import urlpatterns as ureport_urls
 from rapidsms_xforms.urls import urlpatterns as xform_urls
 #from cvs.urls import urlpatterns as cvs_urls
 from education.urls import urlpatterns as emis_urls
@@ -18,10 +18,10 @@ urlpatterns = patterns('',
     # (r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
     (r'^admin/', include(admin.site.urls)),
-    
+
     # RapidSMS core URLs
     (r'^account/', include('rapidsms.urls.login_logout')),
-    url(r'^$', 'rapidsms.views.dashboard', name='rapidsms-dashboard'),    
+    url(r'^$', 'rapidsms.views.dashboard', name='rapidsms-dashboard'),
     url('^accounts/login', 'rapidsms.views.login'),
     url('^accounts/logout', 'rapidsms.views.logout'),
     # RapidSMS contrib app URLs
@@ -33,7 +33,7 @@ urlpatterns = patterns('',
     (r'^registration/', include('auth.urls')),
     (r'^scheduler/', include('rapidsms.contrib.scheduler.urls')),
     (r'^polls/', include('poll.urls')),
-) + router_urls + ureport_urls + xform_urls + contact_urls + emis_urls #+ cvs_urls + healthmodels_urls
+) + router_urls + xform_urls + contact_urls + emis_urls #+ cvs_urls + healthmodels_urls
 
 if settings.DEBUG:
     urlpatterns += patterns('',
