@@ -34,9 +34,6 @@
 [submodule "emis_project/rapidsms_xforms_src"]
 	path = emis_project/rapidsms_xforms_src
 	url = git://github.com/unicefuganda/rapidsms-xforms.git
-[submodule "emis_project/rapidsms_authsites"]
-	path = emis_project/rapidsms_authsites
-	url = git://github.com/unicefuganda/rapidsms-authsites
 [submodule "emis_project/rapidsms_uganda_common"]
 	path = emis_project/rapidsms_uganda_common
 	url = git://github.com/unicefuganda/rapidsms-uganda-common
