@@ -238,5 +238,5 @@ if 'test' in sys.argv:
         DATABASES[db_name]['ENGINE'] = 'django.db.backends.sqlite3'
         DATABASES[db_name]['NAME'] = os.path.join(
             tempfile.gettempdir(),
-            "%s.rapidsms.test.sqlite3" % db_name)
+            "%s.emis.test.sqlite3" % db_name)
 
