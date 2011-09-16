@@ -113,7 +113,7 @@ SMS_APPS = [
 # tabbed navigation. when adding an app to INSTALLED_APPS, you may wish
 # to add it here, also, to expose it in the rapidsms ui.
 RAPIDSMS_TABS = [
-   ('stats', 'Stats'),
+#   ('stats', 'Stats'),
    ('emis-messagelog', 'Messages'),
    ('emis-contact', 'Reporters'),
    ('deo-dashboard', 'DEO')
