@@ -84,6 +84,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.contenttypes",
     "django.contrib.sites",
+    "django.contrib.humanize",
 
     # the rapidsms contrib apps.
     "rapidsms.contrib.default",
@@ -115,6 +116,7 @@ RAPIDSMS_TABS = [
    ('stats', 'Stats'),
    ('emis-messagelog', 'Messages'),
    ('emis-contact', 'Reporters'),
+   ('deo-dashboard', 'Deo Dashboard')
 ]
 
 # -------------------------------------------------------------------- #
