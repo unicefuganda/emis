@@ -116,7 +116,7 @@ RAPIDSMS_TABS = [
    ('stats', 'Stats'),
    ('emis-messagelog', 'Messages'),
    ('emis-contact', 'Reporters'),
-   ('deo-dashboard', 'Deo Dashboard')
+   ('deo-dashboard', 'DEO')
 ]
 
 # -------------------------------------------------------------------- #
