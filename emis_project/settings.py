@@ -117,7 +117,6 @@ RAPIDSMS_TABS = [
    ('emis-messagelog', 'Messages'),
    ('emis-contact', 'Reporters'),
    ('deo-dashboard', 'DEO'),
-   ('xforms', 'XForms'),
 ]
 
 # -------------------------------------------------------------------- #
