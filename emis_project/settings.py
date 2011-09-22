@@ -70,8 +70,8 @@ INSTALLED_BACKENDS = {
 # to help you get started quickly, many django/rapidsms apps are enabled
 # by default. you may wish to remove some and/or add your own.
 INSTALLED_APPS = [
+    "education",
     "djtables",
-    "rapidsms",
     "mptt",
     "uni_form",
     "django_extensions",
@@ -94,12 +94,12 @@ INSTALLED_APPS = [
     "rapidsms_httprouter",
     "script",
     "poll",
-    "ureport",
     "uganda_common",
     "generic",
     "contact",
     "unregister",
-    "education",
+    "ureport",
+    "rapidsms",
 ]
 
 SMS_APPS = [
@@ -117,6 +117,10 @@ RAPIDSMS_TABS = [
    ('emis-messagelog', 'Messages'),
    ('emis-contact', 'Reporters'),
    ('deo-dashboard', 'DEO'),
+]
+
+AUTHENTICATED_TABS = [
+    ("emis-othermessages", "Other Messages"),
 ]
 
 # -------------------------------------------------------------------- #
@@ -167,6 +171,7 @@ TEMPLATE_CONTEXT_PROCESSORS = [
     "django.core.context_processors.media",
     "django.core.context_processors.request",
     #"logistics.context_processors.base_template",
+    "uganda_common.context_processors.authtabs",
     "generic.context_processors.map_params",
 ]
 
