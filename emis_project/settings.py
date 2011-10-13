@@ -114,12 +114,12 @@ SMS_APPS = [
 # to add it here, also, to expose it in the rapidsms ui.
 RAPIDSMS_TABS = [
 #   ('stats', 'Stats'),
-   ('emis-messagelog', 'Messages'),
-   ('emis-contact', 'Reporters'),
    ('deo-dashboard', 'DEO'),
 ]
 
 AUTHENTICATED_TABS = [
+    ('emis-messagelog', 'Messages'),
+    ('emis-contact', 'Reporters'),
     ("emis-othermessages", "Other Messages"),
 ]
 
