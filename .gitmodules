@@ -28,9 +28,6 @@
 [submodule "emis_project/rapidsms_unregister"]
 	path = emis_project/rapidsms_unregister
 	url = git://github.com/unicefuganda/rapidsms-unregister
-[submodule "emis_project/rapidsms_ureport"]
-	path = emis_project/rapidsms_ureport
-	url = git://github.com/unicefuganda/rapidsms-ureport
 [submodule "emis_project/rapidsms_xforms_src"]
 	path = emis_project/rapidsms_xforms_src
 	url = git://github.com/unicefuganda/rapidsms-xforms.git

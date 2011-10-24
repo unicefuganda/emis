@@ -16,7 +16,6 @@ sys.path.append(os.path.join(filedir, 'rapidsms_httprouter_src'))
 sys.path.append(os.path.join(filedir, 'rapidsms_polls'))
 sys.path.append(os.path.join(filedir, 'rapidsms_script'))
 sys.path.append(os.path.join(filedir, 'rapidsms_uregister'))
-sys.path.append(os.path.join(filedir, 'rapidsms_ureport'))
 sys.path.append(os.path.join(filedir, 'rapidsms_xforms_src'))
 sys.path.append(os.path.join(filedir, 'django_eav'))
 sys.path.append(os.path.join(filedir, 'rapidsms_uganda_common'))
@@ -98,7 +97,6 @@ INSTALLED_APPS = [
     "generic",
     "contact",
     "unregister",
-    "ureport",
     "rapidsms",
 ]
 
