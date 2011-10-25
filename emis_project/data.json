@@ -3223,7 +3223,67 @@
             "poll": 108, 
             "response": null
         }
+    },
+    {
+        "pk": 88, 
+        "model": "poll.rule", 
+        "fields": {
+            "regex": "^\\s*(yes|yeah|yep|yay|y)(\\s|[^a-zA-Z]|$)", 
+            "category": 140, 
+            "rule_string": "^\\s*(yes|yeah|yep|yay|y)(\\s|[^a-zA-Z]|$)", 
+            "rule_type": "r"
+        }
     }, 
+    {
+        "pk": 89, 
+        "model": "poll.rule", 
+        "fields": {
+            "regex": "^\\s*(no|nope|nah|nay|n)(\\s|[^a-zA-Z]|$)", 
+            "category": 141, 
+            "rule_string": "^\\s*(no|nope|nah|nay|n)(\\s|[^a-zA-Z]|$)", 
+            "rule_type": "r"
+        }
+    }, 
+    {
+        "pk": 90, 
+        "model": "poll.rule", 
+        "fields": {
+            "regex": "^\\s*(yes|yeah|yep|yay|y)(\\s|[^a-zA-Z]|$)", 
+            "category": 143, 
+            "rule_string": "^\\s*(yes|yeah|yep|yay|y)(\\s|[^a-zA-Z]|$)", 
+            "rule_type": "r"
+        }
+    }, 
+    {
+        "pk": 91, 
+        "model": "poll.rule", 
+        "fields": {
+            "regex": "^\\s*(no|nope|nah|nay|n)(\\s|[^a-zA-Z]|$)", 
+            "category": 144, 
+            "rule_string": "^\\s*(no|nope|nah|nay|n)(\\s|[^a-zA-Z]|$)", 
+            "rule_type": "r"
+        }
+    }, 
+    {
+        "pk": 92, 
+        "model": "poll.rule", 
+        "fields": {
+            "regex": "^\\s*(yes|yeah|yep|yay|y)(\\s|[^a-zA-Z]|$)", 
+            "category": 146, 
+            "rule_string": "^\\s*(yes|yeah|yep|yay|y)(\\s|[^a-zA-Z]|$)", 
+            "rule_type": "r"
+        }
+    }, 
+    {
+        "pk": 93, 
+        "model": "poll.rule", 
+        "fields": {
+            "regex": "^\\s*(no|nope|nah|nay|n)(\\s|[^a-zA-Z]|$)", 
+            "category": 147, 
+            "rule_string": "^\\s*(no|nope|nah|nay|n)(\\s|[^a-zA-Z]|$)", 
+            "rule_type": "r"
+        }
+    }
     {
         "pk": "supply_staff", 
         "model": "script.script", 
