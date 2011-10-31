@@ -99,7 +99,7 @@ INSTALLED_APPS = [
     "unregister",
     "rapidsms",
 
-    # don't put anything below south
+    #leave south at the end of this list
     "south",
 ]
 
