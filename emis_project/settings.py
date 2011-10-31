@@ -98,6 +98,9 @@ INSTALLED_APPS = [
     "contact",
     "unregister",
     "rapidsms",
+
+    # don't put anything below south
+    "south",
 ]
 
 SMS_APPS = [
