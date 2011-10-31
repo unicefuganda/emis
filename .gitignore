@@ -4,3 +4,5 @@
 *.pyc
 *~
 localsettings.py
+emis_project.ids
+.idea/
