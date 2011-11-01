@@ -115,14 +115,18 @@ SMS_APPS = [
 # to add it here, also, to expose it in the rapidsms ui.
 RAPIDSMS_TABS = [
 #   ('stats', 'Stats'),
-   ('deo-dashboard', 'DEO'),
+    ("rapidsms-dashboard", 'Home')
 ]
 
 AUTHENTICATED_TABS = [
     ('emis-messagelog', 'Messages'),
     ('emis-contact', 'Reporters'),
     ("emis-othermessages", "Other Messages"),
+#    ('deo-dashboard', 'DEO'),
+    ("emis-schools", "Schools"),
 ]
+
+AUTH_PROFILE_MODULE = 'education.UserProfile'
 
 # -------------------------------------------------------------------- #
 #                         BORING CONFIGURATION                         #
