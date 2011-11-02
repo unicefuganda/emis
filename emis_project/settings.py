@@ -119,11 +119,11 @@ RAPIDSMS_TABS = [
 ]
 
 AUTHENTICATED_TABS = [
+    ('deo-dashboard', 'District Summaries'),
     ('emis-messagelog', 'Messages'),
     ('emis-contact', 'Reporters'),
-    ("emis-othermessages", "Other Messages"),
-#    ('deo-dashboard', 'DEO'),
     ("emis-schools", "Schools"),
+    ("emis-othermessages", "Other Messages"),
 ]
 
 AUTH_PROFILE_MODULE = 'education.UserProfile'
@@ -148,7 +148,8 @@ LOGIN_REDIRECT_URL = "/"
 # modules which django does not find automatically, and importing them
 # all manually is tiresome and error-prone.
 TEST_RUNNER = "django_nose.NoseTestSuiteRunner"
-
+SKIP_SOUTH_TESTS = True
+SOUTH_TESTS_MIGRATE = False
 
 # for some reason this setting is blank in django's global_settings.py,
 # but it is needed for static assets to be linkable.
