@@ -119,11 +119,11 @@ RAPIDSMS_TABS = [
 ]
 
 AUTHENTICATED_TABS = [
+    ('deo-dashboard', 'District Summaries'),
     ('emis-messagelog', 'Messages'),
     ('emis-contact', 'Reporters'),
-    ("emis-othermessages", "Other Messages"),
-#    ('deo-dashboard', 'DEO'),
     ("emis-schools", "Schools"),
+    ("emis-othermessages", "Other Messages"),
 ]
 
 AUTH_PROFILE_MODULE = 'education.UserProfile'
