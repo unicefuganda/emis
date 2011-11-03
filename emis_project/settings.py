@@ -122,7 +122,7 @@ AUTHENTICATED_TABS = [
     ('deo-dashboard', 'District Summaries'),
     ('emis-messagelog', 'Messages'),
     ('emis-contact', 'Reporters'),
-    ("emis-schools", "Schools"),,
+    ("emis-schools", "Schools"),
     ("emis-othermessages", "Other Messages"),
 ]
 
