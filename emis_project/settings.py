@@ -21,6 +21,7 @@ sys.path.append(os.path.join(filedir, 'django_eav'))
 sys.path.append(os.path.join(filedir, 'rapidsms_uganda_common'))
 sys.path.append(os.path.join(filedir, 'rapidsms_unregister'))
 sys.path.append(os.path.join(filedir, 'rapidsms_emis'))
+sys.path.append(os.path.join(filedir, 'rapidsms_geoserver'))
 
 # -------------------------------------------------------------------- #
 #                          MAIN CONFIGURATION                          #
@@ -98,9 +99,11 @@ INSTALLED_APPS = [
     "contact",
     "unregister",
     "rapidsms",
+    "geoserver",
 
     #leave south at the end of this list
     "south",
+
 ]
 
 SMS_APPS = [
