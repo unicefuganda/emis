@@ -34,3 +34,6 @@
 [submodule "emis_project/rapidsms_uganda_common"]
 	path = emis_project/rapidsms_uganda_common
 	url = git://github.com/unicefuganda/rapidsms-uganda-common
+[submodule "emis_project/rapidsms_geoserver"]
+	path = emis_project/rapidsms_geoserver
+	url = git://github.com/unicefuganda/rapidsms-geoserver
