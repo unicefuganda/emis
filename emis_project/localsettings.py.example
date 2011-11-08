@@ -4,7 +4,7 @@ DATABASES = {
         "ENGINE": "django.db.backends.postgresql_psycopg2",
         "NAME": "emis",
         "USER": "postgres",
-        "PASSWORD": "test",
+        "PASSWORD": "",
         "HOST": "localhost",
     }
 }
