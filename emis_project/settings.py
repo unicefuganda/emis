@@ -99,7 +99,7 @@ INSTALLED_APPS = [
     "contact",
     "unregister",
     "rapidsms",
-    #"geoserver",
+    "geoserver",
 
     #leave south at the end of this list
     "south",
