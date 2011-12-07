@@ -96,6 +96,7 @@ INSTALLED_APPS = [
     "poll",
     "uganda_common",
     "generic",
+    "generic.reporting",
     "contact",
     "unregister",
     "rapidsms",
